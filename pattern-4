@@ -20,11 +20,11 @@ public class next {
 		}
 		for(int l=1;l<=8;l++)
 		{
-			for(int m=1;m<=l;m++)
+			for(int m=1;m<=l+1;m++)
 			{
 				System.out.print(" ");
 			}
-			for(int n=8;n>=l;n--)
+			for(int n=7;n>=l;n--)
 			{
 				System.out.print("*");
 			}
