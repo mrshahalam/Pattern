@@ -1,0 +1,36 @@
+package com.codewithshah;
+public class fifth
+{
+    public static void  main(String[]args )
+    {
+       //first triangle
+        for (int i = 0; i < 8; i++) {
+            for (int j = 0; j <i; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 0; j >i ; j--) {
+                System.out.print("*");
+            }
+            for (int l = 8; l >i ; l--) {
+                System.out.print("* ");
+            }
+            for (int j = 8; j <i ; j--) {
+                System.out.print("* ");
+            }
+            if (i!=7)
+            {
+                System.out.println();
+            }
+                    }
+        //second triangle
+        for (int a = 0; a <8; a++) {
+            for (int b = 8; b >a ; b--) {
+                System.out.print(" ");
+            }
+            for (int c = 0; c <a; c++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
